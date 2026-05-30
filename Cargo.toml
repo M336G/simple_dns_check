@@ -1,0 +1,11 @@
+[package]
+name = "simple_dns_check"
+description = "Simple tool to know which DNS provider is the best for you"
+authors = ["M336"]
+version = "1.0.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+reqwest = "0.13.4"
+tokio = { version = "1.52.3", features = ["full"] }
